@@ -14,8 +14,7 @@ html {
 
 
 .container {
- min-height: 80vh;
-  /* height: 72vh; */
+  min-height: 80vh;
   background-color: black;
   color: white;
   overflow: hidden;
@@ -32,7 +31,7 @@ html {
 
 .footer {
   height: 13vh;
-  background-color: #3a2915;
+  background-color: #251a14;
   width: 77%;
   color: white;
 
@@ -64,7 +63,6 @@ html {
 
 .icons {
   margin: 0.5rem;
-  /* cursor: pointer; */
 }
 .icons svg {
   cursor: pointer;
@@ -74,7 +72,6 @@ html {
   height: 90%;
   display: flex;
   background-color:rgb(238,242,243,0.8);
-  /* width: 80%; */
   color: #454545;
   font-weight: 600;
   margin: 8px 0;
@@ -83,7 +80,7 @@ html {
   align-items: center;
   border-radius: 15px;
 
-  /* border: 0.1px solid black; */
+  
 }
 
 .songItem img {
@@ -91,7 +88,7 @@ html {
   height: 46px;
   margin: 0 20px;
   border-radius: 50%;
-  border: 1px solid black;
+ 
 }
 
 .timestamp {
@@ -116,8 +113,7 @@ html {
   background-color: transparent;
   color: white;
 
-  /* position: fixed; */
-  right: 0;
+  
   cursor: pointer;
 
   border: 1.5px solid black;
@@ -128,8 +124,3 @@ html {
   cursor: pointer;
 }
 
-
-.footer svg{
-  color: black;
-
-}
