@@ -88,7 +88,7 @@ Array.from(document.getElementsByClassName("songItemPlay")).forEach(
   }
 );
 
-//handling next/orev button
+//handling next/prev button
 
 document.getElementById("next").addEventListener("click", () => {
   if (songIndex >= 5) {
@@ -120,24 +120,20 @@ function sortSongs() {
   const songContainer = document.querySelector(".songItemContainer");
   const songItems = Array.from(songContainer.querySelectorAll(".songItem"));
 
-  // Sorting logic based on song names
   songItems.sort((a, b) => {
     const songNameA = a.querySelector(".songName").textContent.toLowerCase();
     const songNameB = b.querySelector(".songName").textContent.toLowerCase();
 
-    // Toggle between ascending and descending order
     const orderFactor = ascendingOrder ? 1 : -1;
 
     return orderFactor * songNameA.localeCompare(songNameB);
   });
 
-  // Update the DOM with the sorted song items
   songContainer.innerHTML = "";
   songItems.forEach((songItem) => {
     songContainer.appendChild(songItem);
   });
 
-  // Toggle the order for the next click
   ascendingOrder = !ascendingOrder;
 }
 

@@ -9,9 +9,8 @@ html {
   height: 100vh;
   width: 100vw;
 
-  background-color: rgba(192,195,188, 0.1);
+  background-color: rgba(192, 195, 188, 0.1);
 }
-
 
 .container {
   min-height: 80vh;
@@ -47,18 +46,16 @@ html {
 
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-
-
 }
 
-.song-list h1{
+.song-list h1 {
   color: #eef2f3;
   font-size: 40px;
   font-weight: bold;
 }
 
 #progress {
-  width:85%;
+  width: 85%;
 }
 input[type="range"] {
   accent-color: white;
@@ -74,7 +71,7 @@ input[type="range"] {
 .songItem {
   height: 90%;
   display: flex;
-  background-color:rgb(238,242,243,0.8);
+  background-color: rgb(238, 242, 243, 0.8);
   color: #454545;
   font-weight: 600;
   margin: 8px 0;
@@ -82,8 +79,6 @@ input[type="range"] {
   justify-content: space-between;
   align-items: center;
   border-radius: 15px;
-
-  
 }
 
 .songItem img {
@@ -91,7 +86,6 @@ input[type="range"] {
   height: 46px;
   margin: 0 20px;
   border-radius: 50%;
- 
 }
 
 .timestamp {
@@ -116,7 +110,6 @@ input[type="range"] {
   background-color: transparent;
   color: white;
 
-  
   cursor: pointer;
 
   border: 1.5px solid black;
@@ -127,3 +120,8 @@ input[type="range"] {
   cursor: pointer;
 }
 
+.add-songs {
+  margin: 10px;
+
+  display: inline;
+}
