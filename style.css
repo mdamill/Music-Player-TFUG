@@ -60,6 +60,9 @@ html {
 #progress {
   width:85%;
 }
+input[type="range"] {
+  accent-color: white;
+}
 
 .icons {
   margin: 0.5rem;
